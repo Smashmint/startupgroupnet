@@ -35,9 +35,7 @@
                 </div>
                 
                 <!-- Page sections -->
-                <%= require('html-loader!./partials/hero-home.html') %>
-                <%= require('html-loader!./partials/process.html') %>
-                <%= require('html-loader!./partials/features-home.html') %>
+                <!-- <%= require('html-loader!./partials/features-home.html') %> -->
 
                 @yield('content')
             </main>
