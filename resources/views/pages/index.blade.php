@@ -95,5 +95,44 @@
     </div>
 </section>
 
+<section>
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="py-12 md:py-20 border-t border-gray-800">
+
+            <!-- Items -->
+            <div class="grid gap-20">
+
+                <!-- Item -->
+                <div class="md:grid md:grid-cols-12 md:gap-6 items-center">
+                    <!-- Image -->
+                    <div class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1">
+                        <div class="relative">
+                            <img class="md:max-w-none" src="https://s3.eu-central-1.amazonaws.com/thestartupgroup.net/images/features-03-image-02.png" width="540" height="520" alt="Features illustration" />
+                            <svg class="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto" width="540" height="520" viewBox="0 0 540 520" xmlns="http://www.w3.org/2000/svg">
+                                <g class="fill-current text-purple-600">
+                                    <circle class="pulse" cx="270" cy="260" r="64" />
+                                    <circle class="pulse pulse-1" cx="270" cy="260" r="64" />
+                                    <circle class="pulse pulse-2" cx="270" cy="260" r="64" />
+                                    <circle class="pulse pulse-3" cx="270" cy="260" r="64" />
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- Content -->
+                    <div class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6">
+                        <div class="md:pr-4 lg:pr-12 xl:pr-16">
+                            <div class="font-architects-daughter text-xl text-purple-600 mb-2">Lighting fast workflow</div>
+                            <h3 class="h3 mb-3 text-3xl leading-10 md:leading-5 font-extrabold tracking-tight">Say hello to automation</h3>
+                            <p class="text-xl text-gray-400 mb-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
 
 @endsection
