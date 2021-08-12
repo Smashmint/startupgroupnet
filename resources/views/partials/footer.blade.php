@@ -23,10 +23,10 @@
 
                     <!-- 2nd block -->
                     <div class="text-sm">
-                        <h6 class="text-gray-200 font-medium mb-1">Company</h6>
+                        <h6 class="text-gray-200 font-medium mb-1">Studio</h6>
                         <ul>
                             <li class="mb-1">
-                                <a class="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" href="#0">Web Studio</a>
+                                <a class="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" href="#0">Companies</a>
                             </li>
                             <li class="mb-1">
                                 <a class="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" href="#0">DynamicBox Flex</a>

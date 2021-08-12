@@ -22,7 +22,7 @@
 
             <!-- Section header -->
             <div class="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-                <h1 class="h1 mb-4 text-5xl font-extrabold leading-5 tracking-tight">Landing template for startups</h1>
+                <h1 class="h1 mb-8 text-4xl leading-10 md:text-5xl md:leading-5 font-extrabold tracking-tight">Landing template for startups</h1>
                 <p class="text-xl text-gray-400 mb-8">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
             </div>
 
