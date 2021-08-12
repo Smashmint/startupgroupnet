@@ -29,7 +29,7 @@
             <!-- Hero image -->
             <div x-data="{ modalExpanded: false }">
                 <div class="relative flex justify-center items-center">
-                    <img class="mx-auto" src="{{ asset('storage/images/hero-image-01.jpg') }}" width="1024" height="504" alt="Hero" />
+                    <img class="mx-auto" src="https://s3.eu-central-1.amazonaws.com/thestartupgroup.net/images/hero-image-01.jpg" width="1024" height="504" alt="Hero" />
                     <a class="absolute group" href="#0" >
                         
                     </a>

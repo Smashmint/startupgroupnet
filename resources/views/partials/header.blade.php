@@ -16,7 +16,7 @@
             <nav class="hidden md:flex md:flex-grow">
 
                 <!-- Desktop menu links -->
-                <ul class="flex flex-grow justify-end flex-wrap items-center">
+                <ul class="flex flex-grow justify-center flex-wrap items-center">
                     <li>
                         <a class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out" href="features.html">Features</a>
                     </li>
@@ -76,7 +76,7 @@
                 </ul>
 
                 <!-- Desktop sign in links -->
-                <ul class="flex flex-grow justify-end flex-wrap items-center">
+                <ul class="flex flex-grow justify-end flex-wrap items-center hidden">
                     <li>
                         <a class="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out" href="signin.html">Sign in</a>
                     </li>
@@ -128,26 +128,6 @@
                         </li>
                         <li>
                             <a class="flex text-gray-300 hover:text-gray-200 py-2" href="about.html">About us</a>
-                        </li>
-                        <li class="py-2 my-2 border-t border-b border-gray-700">
-                            <span class="flex text-gray-300 py-2">Support</span>
-                            <ul class="pl-4">
-                                <li>
-                                    <a class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2" href="contact.html">Contact us</a>
-                                </li>
-                                <li>
-                                    <a class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2" href="help.html">Help center</a>
-                                </li>
-                                <li>
-                                    <a class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2" href="404.html">404</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a class="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" href="signin.html">Sign in</a>
-                        </li>
-                        <li>
-                            <a class="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out" href="signup.html">Sign up</a>
                         </li>
                     </ul>
                 </nav>
