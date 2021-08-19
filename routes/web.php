@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\CompanyPageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,6 @@ Route::get('/', [PageController::class, 'index'])->name('home');
 Route::get('about', [PageController::class, 'about'])->name('about');
 Route::get('contact', [PageController::class, 'contact'])->name('contact');
 Route::post('contact', [ContactController::class, 'sendContactRequest'])->name('contact.post');
+
+
+Route::get('companies/new-and-co', [CompanyPageController::class, 'newandco'])->name('company.newandco');

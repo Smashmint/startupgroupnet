@@ -2,16 +2,20 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\SendContactRequest;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
-    public function (Request $request)
+    public function sendContactRequest(Request $request)
     {
        // validate contact request
        $validator = Validator::make($request->all(), [
             'first_name' => 'required|string',
             'last_name'  => 'required|string',
+            'subject'    => 'required|string',
             'email'      => 'required|email',
             'message'    => 'required|string',
         ]);

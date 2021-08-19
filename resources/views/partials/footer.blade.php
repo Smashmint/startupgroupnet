@@ -26,7 +26,7 @@
                         <h6 class="text-gray-200 font-medium mb-1">Studio</h6>
                         <ul>
                             <li class="mb-1">
-                                <a class="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" href="#0">Services</a>
+                                <a class="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" href="#">Services</a>
                             </li>
                             <li class="mb-1">
                                 <a class="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" href="{{ route('about') }}">About</a>
@@ -41,7 +41,7 @@
                         <h6 class="text-gray-200 font-medium mb-1">Companies</h6>
                         <ul>
                             <li class="mb-1">
-                                <a class="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" href="#0">New & Co</a>
+                                <a class="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" href="{{ route('company.newandco') }}">New & Co</a>
                             </li>
                         </ul>
                     </div>

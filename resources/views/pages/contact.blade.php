@@ -19,33 +19,33 @@
                 <div class="flex flex-wrap -mx-3 mb-4">
                     <div class="w-full md:w-1/2 px-3 mb-4 md:mb-0">
                         <label class="block text-gray-300 text-sm font-medium mb-1" for="first-name">First Name <span class="text-red-600">*</span></label>
-                        <input id="first_name" type="text" class="form-input w-full text-gray-300 bg-transparent border border-gray-700 focus:border-gray-500 @if($errors->has('first_name')) border-red-500 focus:border-red-500 @endif" placeholder="Enter your first name" required />
+                        <input id="first_name" name="first_name" type="text" class="form-input w-full text-gray-300 bg-transparent border border-gray-700 focus:border-gray-500 @if($errors->has('first_name')) border-red-500 focus:border-red-500 @endif" placeholder="Enter your first name" required />
                         @if($errors->has('first_name'))<p class="text-red-500 text-sm mt-2">{{ $errors->first('first_name') }}</p>@endif
                     </div>
                     <div class="w-full md:w-1/2 px-3">
                         <label class="block text-gray-300 text-sm font-medium mb-1" for="last-name">Last Name <span class="text-red-600">*</span></label>
-                        <input id="last_name" type="text" class="form-input w-full text-gray-300 bg-transparent border border-gray-700 focus:border-gray-500" placeholder="Enter your last name" required />
+                        <input id="last_name" name="last_name"type="text" class="form-input w-full text-gray-300 bg-transparent border border-gray-700 focus:border-gray-500 @if($errors->has('last_name')) border-red-500 focus:border-red-500 @endif" placeholder="Enter your last name" required />
                         @if($errors->has('last_name'))<p class="text-red-500 text-sm mt-2">{{ $errors->first('last_name') }}</p>@endif
                     </div>
                 </div>
                 <div class="flex flex-wrap -mx-3 mb-4">
                     <div class="w-full px-3">
                         <label class="block text-gray-300 text-sm font-medium mb-1" for="email">Email <span class="text-red-600">*</span></label>
-                        <input id="email" type="email" class="form-input w-full text-gray-300 bg-transparent border border-gray-700 focus:border-gray-500" placeholder="Enter your email address" required />
+                        <input id="email" name="email" type="email" class="form-input w-full text-gray-300 bg-transparent border border-gray-700 focus:border-gray-500 @if($errors->has('email')) border-red-500 focus:border-red-500 @endif" placeholder="Enter your email address" required />
                         @if($errors->has('email'))<p class="text-red-500 text-sm mt-2">{{ $errors->first('email') }}</p>@endif
                     </div>
                 </div>
                 <div class="flex flex-wrap -mx-3 mb-4">
                     <div class="w-full px-3">
                         <label class="block text-gray-300 text-sm font-medium mb-1" for="subject">Subject <span class="text-red-600">*</span></label>
-                        <input id="subject" type="text" class="form-input w-full text-gray-300 bg-transparent border border-gray-700 focus:border-gray-500" placeholder="How can we help?" required />
+                        <input id="subject" name="subject" type="text" class="form-input w-full text-gray-300 bg-transparent border border-gray-700 focus:border-gray-500 @if($errors->has('subject')) border-red-500 focus:border-red-500 @endif" placeholder="How can we help?" required />
                         @if($errors->has('subject'))<p class="text-red-500 text-sm mt-2">{{ $errors->first('subject') }}</p>@endif
                     </div>
                 </div>
                 <div class="flex flex-wrap -mx-3 mb-4">
                     <div class="w-full px-3">
-                        <label class="block text-gray-300 text-sm font-medium mb-1" for="message">Message</label>
-                        <textarea id="message" rows="4" class="form-textarea w-full text-gray-300 bg-transparent border border-gray-700 focus:border-gray-500" placeholder="Write your message"></textarea>
+                        <label class="block text-gray-300 text-sm font-medium mb-1" for="message">Message <span class="text-red-600">*</span></label>
+                        <textarea id="message" name="message" rows="4" class="form-textarea w-full text-gray-300 bg-transparent border border-gray-700 focus:border-gray-500 @if($errors->has('message')) border-red-500 focus:border-red-500 @endif" placeholder="Write your message"></textarea>
                         @if($errors->has('message'))<p class="text-red-500 text-sm mt-2">{{ $errors->first('message') }}</p>@endif
                     </div>
                 </div>
