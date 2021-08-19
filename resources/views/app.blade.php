@@ -5,13 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>The Startup Group</title>
+        <title>@yield('title') - The Startup Group</title>
 
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:wght@400;500;600;700;800;900&display=fallback">
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/theme.css') }}">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
         <!-- Scripts -->
@@ -43,5 +44,13 @@
             <!-- Site footer -->
             @include('partials.footer')
         </div>
+        <script>
+            AOS.init({
+                once: true,
+                disable: 'phone',
+                duration: 600,
+                easing: 'ease-out-sine',
+            });
+        </script>
     </body>
 </html>
