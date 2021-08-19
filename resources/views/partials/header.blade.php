@@ -21,58 +21,11 @@
                         <a class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out" href="features.html">Features</a>
                     </li>
                     <li>
-                        <a class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out" href="pricing.html">Pricing</a>
+                        <a class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out" href="{{ route('about') }}">About</a>
                     </li>
                     <li>
-                        <a class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out" href="blog.html">Blog</a>
-                    </li>
-                    <li>
-                        <a class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out" href="about.html">About us</a>
-                    </li>
-                    <!-- 1st level: hover -->
-                    <li
-                        class="relative"
-                        x-data="{ open: false }"
-                        @mouseenter="open = true"
-                        @mouseleave="open = false"
-                    >
-                        <a
-                            class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-                            href="#0"
-                            aria-haspopup="true"
-                            :aria-expanded="open"
-                            @focus="open = true"
-                            @focusout="open = false"
-                            @click.prevent
-                        >
-                            Support
-                            <svg class="w-3 h-3 fill-current text-gray-500 cursor-pointer ml-1 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10.28 4.305L5.989 8.598 1.695 4.305A1 1 0 00.28 5.72l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" />
-                            </svg>
-                        </a>
-                        <!-- 2nd level: hover -->
-                        <ul
-                            class="origin-top-right absolute top-full right-0 w-40 bg-gray-800 py-2 ml-4 rounded-sm"
-                            x-show="open"
-                            x-transition:enter="transition ease-out duration-200 transform"
-                            x-transition:enter-start="opacity-0 -translate-y-2"
-                            x-transition:enter-end="opacity-100 translate-y-0"
-                            x-transition:leave="transition ease-out duration-200"
-                            x-transition:leave-start="opacity-100"
-                            x-transition:leave-end="opacity-0"
-                            x-cloak
-                        >
-                            <li>
-                                <a class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight" href="contact.html" @focus="open = true" @focusout="open = false">Contact us</a>
-                            </li>
-                            <li>
-                                <a class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight" href="help.html" @focus="open = true" @focusout="open = false">Help center</a>
-                            </li>
-                            <li>
-                                <a class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight" href="404.html" @focus="open = true" @focusout="open = false">404</a>
-                            </li>
-                        </ul>
-                    </li>
+                        <a class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out" href="{{ route('contact') }}">Contact</a>
+                    </li>                    
                 </ul>
 
                 <!-- Desktop sign in links -->
@@ -121,19 +74,14 @@
                             <a class="flex text-gray-300 hover:text-gray-200 py-2" href="features.html">Features</a>
                         </li>
                         <li>
-                            <a class="flex text-gray-300 hover:text-gray-200 py-2" href="pricing.html">Pricing</a>
+                            <a class="flex text-gray-300 hover:text-gray-200 py-2" href="{{ route('about') }}">About</a>
                         </li>
                         <li>
-                            <a class="flex text-gray-300 hover:text-gray-200 py-2" href="blog.html">Blog</a>
-                        </li>
-                        <li>
-                            <a class="flex text-gray-300 hover:text-gray-200 py-2" href="about.html">About us</a>
+                            <a class="flex text-gray-300 hover:text-gray-200 py-2" href="{{ route('contact') }}">Contact</a>
                         </li>
                     </ul>
                 </nav>
-
             </div>
-
         </div>
     </div>
 </header>
