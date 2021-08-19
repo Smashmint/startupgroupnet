@@ -9,8 +9,8 @@
             
             <!-- Page header -->
             <div class="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-                <h1 class="h1 mb-8 text-4xl leading-10 md:text-5xl md:leading-5 font-extrabold tracking-tight" data-aos="fade-up">How can we help?</h1>
-                <p class="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">Tell us your needs, and we’ll contact you shortly.</p>
+                <h1 class="h1 mb-8 text-4xl leading-10 md:text-5xl md:leading-5 font-extrabold tracking-tight" data-aos="fade-up">Want to say hello?</h1>
+                <p class="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">Drop us a line and we will get back to you shortly.</p>
             </div>
 
             <!-- Contact form -->

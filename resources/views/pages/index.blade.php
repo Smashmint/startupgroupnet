@@ -7,7 +7,7 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 relative">
 
         <!-- Illustration behind hero content -->
-        <div class="absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none">
+        <div class="absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none" aria-hidden="true" data-aos="fade-up" data-aos-delay="400">
             <svg class="max-w-full" width="564" height="552" viewBox="0 0 564 552" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                     <linearGradient id="illustration-02" x1="-3.766" y1="300.204" x2="284.352" y2="577.921" gradientUnits="userSpaceOnUse">
@@ -24,17 +24,14 @@
 
             <!-- Section header -->
             <div class="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-                <h1 class="h1 mb-8 text-4xl leading-10 md:text-5xl md:leading-5 font-extrabold tracking-tight">Landing template for startups</h1>
-                <p class="text-xl text-gray-400 mb-8">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+                <h1 class="h1 mb-8 text-4xl leading-10 md:text-5xl md:leading-5 font-extrabold tracking-tight" data-aos="fade-up">Landing template for startups</h1>
+                <p class="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
             </div>
 
             <!-- Hero image -->
             <div x-data="{ modalExpanded: false }">
-                <div class="relative flex justify-center items-center">
+                <div class="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
                     <img class="mx-auto" src="https://s3.eu-central-1.amazonaws.com/thestartupgroup.net/images/hero-image-01.jpg" width="1024" height="504" alt="Hero" />
-                    <a class="absolute group" href="#0" >
-                        
-                    </a>
                 </div>
             </div>
         </div>

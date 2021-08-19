@@ -25,7 +25,7 @@ class ContactController extends Controller
         }
 
         // send contact request
-        Mail::to('ralphheersink@gmail.com')->send(new SendContactRequest($request->email, $request->first_name, $request->last_name, $request->company, $request->message));
+        Mail::to('ralph@thestartupgroup.net')->send(new SendContactRequest($request->email, $request->first_name, $request->last_name, $request->company, $request->message));
 
         return redirect()->back();
     }
