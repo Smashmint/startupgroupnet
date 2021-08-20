@@ -21,7 +21,7 @@
                         <a class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out" href="features.html">Companies</a>
                     </li>
                     <li>
-                        <a class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out" href="features.html">Services</a>
+                        <a class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out" href="{{ route('services') }}">Services</a>
                     </li>
                     <li>
                         <a class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out" href="{{ route('about') }}">About</a>

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Mail\SendContactRequest;
+use App\Mail\ContactRequest;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Mail;
@@ -29,7 +29,7 @@ class ContactController extends Controller
         }
 
         // send contact request
-        Mail::to('ralph@thestartupgroup.net')->send(new SendContactRequest($request->email, $request->first_name, $request->last_name, $request->company, $request->message));
+        Mail::to('ralph@thestartupgroup.net')->send(new ContactRequest($request->email, $request->first_name, $request->last_name, $request->subject, $request->message));
 
         return redirect()->back();
     }
